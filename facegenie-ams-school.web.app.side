@@ -1,0 +1,86 @@
+{
+  "id": "f620e67d-9d75-46c5-ab67-3101ea7da423",
+  "version": "2.0",
+  "name": "facegenie-ams-school.web.app/",
+  "url": "https://facegenie-ams-school.web.app",
+  "tests": [{
+    "id": "9babd46f-b382-4722-9241-46494016124a",
+    "name": "Login",
+    "commands": [{
+      "id": "a3434754-7a5d-4bfa-a04f-e4f2eb16b85b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67148d53-8419-4b44-89c2-6ae1b67f2cd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef629f89-5f93-4468-8509-8450dffa6b14",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testbams@gmail.com"
+    }, {
+      "id": "c2630ca5-f219-4b26-9332-807eb2dee34b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "facegenie"
+    }, {
+      "id": "c76f5b2f-9943-4f8f-b9cb-7300ddbc1923",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiDialog-container",
+      "targets": [
+        ["css=.MuiDialog-container", "css:finder"],
+        ["xpath=//body/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37465eef-17a7-450b-8338-644e7d2faef8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[34]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/main/div[2]/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div/div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sync Todays Attendance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e570db00-9a71-4e05-bb24-8b43bd0bac64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9babd46f-b382-4722-9241-46494016124a"]
+  }],
+  "urls": ["https://facegenie-ams-school.web.app/"],
+  "plugins": []
+}

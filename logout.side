@@ -1,0 +1,209 @@
+{
+  "id": "f620e67d-9d75-46c5-ab67-3101ea7da423",
+  "version": "2.0",
+  "name": "facegenie-ams-school.web.app/",
+  "url": "https://facegenie-ams-school.web.app",
+  "tests": [{
+    "id": "9babd46f-b382-4722-9241-46494016124a",
+    "name": "Login",
+    "commands": [{
+      "id": "a3434754-7a5d-4bfa-a04f-e4f2eb16b85b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67148d53-8419-4b44-89c2-6ae1b67f2cd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef629f89-5f93-4468-8509-8450dffa6b14",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testbams@gmail.com"
+    }, {
+      "id": "c2630ca5-f219-4b26-9332-807eb2dee34b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "facegenie"
+    }, {
+      "id": "c76f5b2f-9943-4f8f-b9cb-7300ddbc1923",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiDialog-container",
+      "targets": [
+        ["css=.MuiDialog-container", "css:finder"],
+        ["xpath=//body/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37465eef-17a7-450b-8338-644e7d2faef8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=(//button[@type='button'])[34]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/main/div[2]/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//main/div[2]/div/div/div/div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sync Todays Attendance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2f27b61b-fef8-4589-9069-0373ccdde713",
+    "name": "Logout",
+    "commands": [{
+      "id": "434cb8ca-a936-4bca-a409-81ea66bf777f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f335f350-3fd0-4d94-8f7b-3a35d3dff093",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "919b033c-4a83-4a14-97d6-66a492aebb81",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testbams@gmail.com"
+    }, {
+      "id": "305aa3da-5eec-4a81-b4ff-222417d8f2ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "facegenie"
+    }, {
+      "id": "fa8b3178-961b-4f2a-9a12-0a340f7253d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c50679f5-3fea-4936-ac7b-0d3af9e5908f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiListItemButton-root:nth-child(8) .MuiTypography-root",
+      "targets": [
+        ["css=.MuiListItemButton-root:nth-child(8) .MuiTypography-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div/nav/div[8]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a00526a-9531-4cd5-8ecf-f77982db0b0d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton-root:nth-child(2)",
+      "targets": [
+        ["css=.MuiButton-root:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[38]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "800d0a69-a733-4bdb-b38c-008ac8c149ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root:nth-child(2)",
+      "targets": [
+        ["css=.MuiButton-root:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[38]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0bfdb24-4b0b-4109-b15c-fa1e22ce6a15",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testbams@gmail.com"
+    }, {
+      "id": "2cadbc48-7fd6-4bf8-baf6-f2d8aacfaa68",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/div/form[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "facegenie"
+    }]
+  }],
+  "suites": [{
+    "id": "e570db00-9a71-4e05-bb24-8b43bd0bac64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9babd46f-b382-4722-9241-46494016124a"]
+  }],
+  "urls": ["https://facegenie-ams-school.web.app/"],
+  "plugins": []
+}
